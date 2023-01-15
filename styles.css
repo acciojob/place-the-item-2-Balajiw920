@@ -1,2 +1,13 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* this will make sure that if more items are added, they will go on the next row */
+}
+
+.item {
+    flex-shrink: 0; /* this will prevent the items from squishing together */
+    flex-basis: 0; /* this will make all items take up equal space */
+}
+
 
 /* Your CSS Code here. */
